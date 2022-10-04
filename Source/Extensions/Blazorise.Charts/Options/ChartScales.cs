@@ -13,5 +13,9 @@ namespace Blazorise.Charts
         [JsonPropertyName( "y" )]
         [JsonIgnore( Condition = JsonIgnoreCondition.WhenWritingNull )]
         public ChartAxis Y { get; set; }
+        
+        [JsonPropertyName( "r" )]
+        [JsonIgnore( Condition = JsonIgnoreCondition.WhenWritingNull )]
+        public ChartAxis R { get; set; }
     }
 }
